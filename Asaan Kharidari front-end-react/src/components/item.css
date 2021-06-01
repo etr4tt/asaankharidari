@@ -1,0 +1,88 @@
+.mainCard{
+    background-color: #fff;
+    border: 1px solid #f0f0f0;
+    border-radius:4px;
+    margin-bottom:30px;
+    position:relative;
+    -webkit-transition:all .3s ease 0s;
+    -moz-transition:all .3s ease 0s;
+    -o-transition:all .3s ease 0s;
+    transition:all .3s ease 0s;
+	padding: 15px;
+    margin-top: 10px;
+    height: auto;
+}
+.itemCardImageDiv {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 4px;
+}
+.itemCardImageDiv img {
+    border-radius: 4px;
+	transform: translateZ(0);
+	transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
+    width: 100%;
+}
+.itemCardImageDiv:hover img {
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    transform: scale(1.15);
+}
+.ProductDetails{
+     padding: 15px 0 0;
+}
+.ProductDetails .productTitle {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: -20px;
+}
+.productInfo{
+    font-size: 13px;
+    color: #757575;
+    font-weight: 400;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.productInfo_title{
+    margin-left: 5px;
+}
+.productDetailsRow{
+    margin-left: -3px;
+    margin-right: -3px;
+}
+.update-btn{
+    color: #464b5e;
+    font-size: 13px;
+    border: 2px solid #464b5e;
+    text-align: center;
+    display: block;
+    font-weight: 500;
+	padding: 8px;
+    width: 100px;
+    border-radius: 10px;
+}
+.update-btn:hover, .update-btn:focus {
+	background-color: #464b5e;
+	color: #fff;
+}
+.delete-btn {
+	background-color: #464b5e;
+    border: 2px solid #464b5e;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    display: block;
+    font-weight: 500;
+	padding: 8px;
+    width: 100px;
+    border-radius: 10px;
+}
+.delete-btn:hover, .delete-btn:focus {
+	background-color: #464b5e;
+	border-color: #464b5e;
+	color: #fff;
+}
